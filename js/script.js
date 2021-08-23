@@ -156,7 +156,7 @@ $(".all").click(function(){
     $(".img2, .img3, .img5, .img6, .img4, .img1").show(1000) ;
     var wid=$(window).width();
     if(wid<=768){
-        
+        console.log("yes") ;
       
         $(".projects").css({
             "height": "302vh",
@@ -185,7 +185,7 @@ $(".mobile").click(function(){
     
    var wid=$(window).width();
    if(wid<=768){
-      =
+       console.log("yes") ;
      
        $(".projects").css({
         "height": "107vh",
@@ -213,7 +213,7 @@ $(".coffee").click(function(){
     $(".img2, .img3").show(1000) ; 
     var wid=$(window).width();
     if(wid<=768){
-      
+        console.log("yes") ;
       
         $(".projects").css({
          "height": "107vh",
@@ -241,7 +241,7 @@ $(".Video").click(function(){
     $(".img5, .img6").show(1000) ; 
     var wid=$(window).width();
     if(wid<=768){
-       
+        console.log("yes") ;
       
         $(".projects").css({
          "height": "107vh",
